@@ -1,0 +1,205 @@
+/*
+ * Removed because of issues.
+ * .vbimage,
+ * 
+ * This affects background on editor buttons etc..
+ * 
+ */
+.php, div.bbcode .bbchart, div.bbcode .bbtable th, .imagebutton {
+  background-color: transparent !important;
+}
+
+/*
+ * Gives a better spacing in Editor.
+ */
+.controlbar td {
+  padding: 0px;
+  text-align: center;
+  width: 45px;
+}
+
+/*
+ * This affects [code] [/code] blocks 
+ */
+.bbccode {
+  background-color: black !important;
+  font-family: inconsolata !important;
+  text-color: green !important;
+  color:green !important;
+}
+
+/*
+ * Removes background on site elements making it more uniform.
+ */
+#newsLatest, #newsForum, #articleComments a, .timestamp, .pushListInternal, .when {
+  background-color: transparent !important;
+  background: transparent !important;
+  color:#8A8A8A !important;
+}
+
+/*
+ * Fixes the transparency on article graphs making it more readable using this theme.
+ */
+img[alt="Diagram"] { 
+  background-color: rgb(229, 229, 229);
+}
+
+/*
+ * Align the right menus to the top of the forum. (Nytt i forumet)
+ */
+#mainSide.gutter {
+  margin-top: 100px;
+}
+
+/*
+ * Adds round background to various icons and buttons. 
+ * Workaround for some images looking like crap on dark background.
+ */
+.inlineimg, .imagebutton img, [alt~="Folding"], [alt~="Överklockning"], [id^="forum_statusicon"] {
+  background: rgb(207, 207, 207);
+  border-radius: 10px;
+  width: auto;
+  padding: 1px;
+  box-shadow: 0px 0px 5px rgba(230,230,230,1);
+}
+
+/*
+ * This affects the editor menu
+ * Gives a hover effect for the buttons.
+ */
+.imagebutton img:hover {
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+}
+
+/*
+ * This affects the editor menu
+ * Gives a better button effect.
+ */
+.imagebutton img:active {
+  box-shadow: inset 0px 0px 10px rgba(215,110,20,1);
+}
+
+/*
+ *  Gives a darker background for article comments.
+ */
+#articleComments {
+  background: transparent !important;
+  background-color: #492600 !important;
+}
+
+/*
+ * Removes white stripes when using the search.
+ */
+#siteSearchContainer div.border {
+  background: transparent;
+}
+
+/*
+ * Fixes the item color on search.
+ */
+#siteSearchContainer h5, #siteSearchContainer h6, #siteSearchContainer a, .searchResult a, .searchResult h5, .searchResult h6{
+  background: transparent !important;
+}
+
+/*
+ * Font color.
+ */
+#siteSearchContainer h5, #siteSearchContainer h6, #newsLatest h5, #newsLatest h6, #newsForum h5, #newsForum h6, .pushListInternal h5, .pushListInternal h6, .pushListExternal h5, .pushListExternal h6 {
+  color:#D76E16 !important; 
+}
+
+/*
+ * Make the forum use full width
+ */
+.columns.forumWrapper>.column.fluid>.inner {
+  padding-right: 0px;
+}
+
+/*
+ * Show (Nytt i forumet) Above the forum thread, though it will not show contents.
+ */
+.columns.forumWrapper>.column.fixed {	
+  width: 310px;
+  height: 200px;
+  overflow: hidden;
+  display: inline;
+  margin-top: -120px;
+}
+
+/*
+ * Move the sponsor image so it will not be covered by (Nytt i forumet)
+ */
+.cdonspons {
+  padding-top:20px;
+  padding-right:310px;
+}
+
+/*
+ * Removes border on items in (Senaste nyheterna) located on bottom of the page.
+ */
+#newsLatest li.divider {
+  border-top: none;
+}
+
+/*
+ * Gives more width for the items in (Senaste nyheterna) located on bottom of the page.
+ */
+#newsLatest a.comments {
+  width: 90px;
+}
+
+/*
+ * Removes background on footer. on bottom of the page.
+ */
+#footer .top .block {
+  background: transparent !important;
+}
+
+/*
+ * Gives a better structure for how date and nr of comments are shown. Both bottom and right of the site.
+ */
+a.comments, .when {
+  float: left;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 56px;
+}
+
+.when {
+  padding-right: 13px;  
+}
+
+.pushListInternal .inner .body ul li{
+  padding: 0px;
+}
+
+.pushListInternal .inner .body ul li .when{
+  margin-left: 7px;
+}
+
+.pushListExternal .inner .body ul li {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: -300px;
+}
+
+.pushListExternal .inner .body ul li .when {
+  margin-left: 7px;
+}
+
+.pushListExternal .inner .body ul li a {
+  margin-left: 6px;
+}
+
+.pushListInternal {
+  width: 320px;
+}
+
+.columns .column.fluid_1-2 {
+  width: 100%;
+}
+
+.columns .column.last {
+  float: left;
+  margin-left: auto;
+}
