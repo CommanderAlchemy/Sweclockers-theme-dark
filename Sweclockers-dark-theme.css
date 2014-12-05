@@ -111,7 +111,8 @@ img[alt="Diagram"] {
 /*
  * Make the forum use full width
  */
-.columns.forumWrapper>.column.fluid>.inner {
+
+.columns.forumWrapper>.column.fluid>.inner, .layout-center .columns.forumWrapper>.column.fluid>.inner {
   padding-right: 0px;
 }
 
