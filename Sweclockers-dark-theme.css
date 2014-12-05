@@ -117,6 +117,13 @@ img[alt="Diagram"] {
 }
 
 /*
+ * Stop the forum heading overlapp (Nytt i forumet)
+ */
+.breadcrumb_last {
+  width: 70%;
+}
+
+/*
  * Show (Nytt i forumet) Above the forum thread, though it will not show contents.
  */
 .columns.forumWrapper>.column.fixed {	
