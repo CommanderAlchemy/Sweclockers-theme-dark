@@ -45,13 +45,6 @@ img[alt="Diagram"] {
 }
 
 /*
- * Align the right menus to the top of the forum. (Nytt i forumet)
- */
-#mainSide.gutter {
-  margin-top: 100px;
-}
-
-/*
  * Adds round background to various icons and buttons. 
  * Workaround for some images looking like crap on dark background.
  */
@@ -127,11 +120,9 @@ img[alt="Diagram"] {
  * Show (Nytt i forumet) Above the forum thread, though it will not show contents.
  */
 .columns.forumWrapper>.column.fixed {	
-  width: 310px;
-  height: 200px;
+  margin-top: -15px;
+  height: 120px;
   overflow: hidden;
-  display: inline;
-  margin-top: -120px;
 }
 
 /*
