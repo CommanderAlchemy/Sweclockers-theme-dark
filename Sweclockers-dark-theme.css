@@ -45,6 +45,13 @@ img[alt="Diagram"] {
 }
 
 /*
+ * Fixes the color on tables from being black on dark background.
+ */
+.bbtable .first {
+  color: #FFF !important;
+}
+
+/*
  * Adds round background to various icons and buttons. 
  * Workaround for some images looking like crap on dark background.
  */
@@ -97,7 +104,7 @@ img[alt="Diagram"] {
 /*
  * Font color.
  */
-#siteSearchContainer h5, #siteSearchContainer h6, #newsLatest h5, #newsLatest h6, #newsForum h5, #newsForum h6, .pushListInternal h5, .pushListInternal h6, .pushListExternal h5, .pushListExternal h6 {
+#siteSearchContainer h5, #siteSearchContainer h6, #newsLatest h5, #newsLatest h6, #newsForum h5, #newsForum h6, .pushListInternal h5, .pushListInternal h6, .pushListExternal h5, .pushListExternal h6, h2,h3 {
   color:#D76E16 !important; 
 }
 
