@@ -52,6 +52,27 @@ img[alt="Diagram"] {
 }
 
 /*
+ * Adds background for odd rows in tables.
+ */
+.bbtable tr:nth-child(odd) {
+  background: rgba(70,70,70,1);
+}
+
+/*
+ * Adds background for even rows in tables.
+ */
+.bbtable tr:nth-child(even) {
+  background: rgba(70,70,70,.5);
+}
+
+/*
+ * Adds orange highlight
+ */
+div.bbcode .bbhighlight {
+  background: rgba(215,110,22,.5)!important;   
+}
+
+/*
  * Adds round background to various icons and buttons. 
  * Workaround for some images looking like crap on dark background.
  */
