@@ -20,7 +20,7 @@ This is meant to be used with the dark theme: http://goo.gl/8B0i92
 
 2. Create a new style for sweclockers.com domain
 3. Import the css files if you want the latest and greatest or just use the css file in this repo.
-    ```css
+```css
 @import url('https://dl.dropboxusercontent.com/u/2137335/Sweclockers-dark-theme.css');
 ```
 
