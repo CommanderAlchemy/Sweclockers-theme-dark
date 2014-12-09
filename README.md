@@ -26,10 +26,13 @@ This is meant to be used with the dark theme: http://goo.gl/8B0i92
 
 <br>
 ## Screenshots
+##### Post editor improvements
 ![Sweclockers New Post](http://i.imgur.com/cZRXwwA.png "When making a post")
-
+##### Member icons improvements
 ![Sweclockers Icons](http://i.imgur.com/SKFWQwE.png "Member icons")
-
+##### Using full width, and forum icons improvements
 ![Sweclockers Forum index](http://i.imgur.com/y0Ra3rJ.png "Forumindex icons")
-
+##### Tables readability improvements
+![Sweclockers Tables](http://i.imgur.com/Ds04eZ7.png "Better background and hinting")
+##### Full page some text-flow rearrangements.
 ![Sweclockers Home](http://i.imgur.com/hYdd5Sl.jpg "Home page")
