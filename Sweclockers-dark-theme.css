@@ -138,9 +138,24 @@ div.bbcode .bbhighlight {
 }
 
 /*
- * Stop the forum heading overlapp (Nytt i forumet)
+ * Center page.
  */
-.breadcrumb_last {
+div.page {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*
+ * Removes right margin on gutter to center page.
+ */
+columns .gutter {
+  margin: 0;
+}
+
+/*
+ * Stop the forum heading and breadcrumbs overlapp (Nytt i forumet)
+ */
+.breadcrumb_last, .breadcrumbs {
   width: 70%;
 }
 
